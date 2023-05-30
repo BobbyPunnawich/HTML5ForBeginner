@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        text-align: center;
+        background: floralwhite;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>การรับค่าข้อมูลมาประมวลผล</title>
+  </head>
+  <body>
+    <h1>Registeration</h1>
+    <form>
+      <div>
+        <label for="firstname"> Your First Name</label>
+        <input type="text" name="fname" placeholder="ป้อนชื่อจริง" required />
+      </div>
+      <div>
+        <label for="lastname"> Your Last Name</label>
+        <input type="text" name="lname" placeholder="ป้อนนามสกุล" />
+      </div>
+      <div>
+        <label for="email"> Your Email Addrees</label>
+        <input type="email" name="email" placeholder="ป้อนemail" required />
+      </div>
+      <div>
+        <label for="Password"> Your Password</label>
+        <input type="password" name="password" placeholder="ป้อนpassword" />
+      </div>
+
+      <!-- อื่นๆ-->
+      <div>
+        <label for="ที่อยู่่"></label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </div>
+      <div>
+        <label for="age"> อายุ</label>
+        <input type="number" name="password" min="0" />
+      </div>
+      <div>
+        <label for="date"> กรอกวันที่</label>
+        <input type="date" name="date" min="0" />
+      </div>
+      <div>
+        <label for="date"> เบอร์โทร</label>
+        <input type="tel" name="date" min="0" />
+      </div>
+      <div>
+        <label for="date"> lucky color</label>
+        <input type="color" name="date" min="0" />
+      </div>
+
+      <!-- อิ้นๆ-->
+      <div>
+        <label for="lastname">ระดับบการศึกษา</label>
+        <select name="edu" id="">
+          <option value="ปริญญาตรี">ปริญญาตรี</option>
+          <option value="ปริญญาโท">ปริญญาโท</option>
+          <option value="อื่นๆ" selected>อื่นๆ</option>
+        </select>
+      </div>
+      <div>
+        <label for="lastname"> gender</label>
+        <input type="radio" name="gender" /> เพศชาย
+        <input type="radio" name="gender" /> หญิง
+        <input type="radio" name="gender" /> หนุ่ม
+      </div>
+      <div>
+        <label for="lastname"> gender</label>
+        <input type="checkbox" name="gender" /> เพศชาย
+        <input type="checkbox" name="gender" /> หญิง
+        <input type="checkbox" name="gender" /> หนุ่ม
+      </div>
+      <div>
+        <label for="lastname"> resume </label>
+        <input type="file" />
+      </div>
+      <!-- submit ข้อมูล to backend-->
+      <div><input type="submit" value="ho" /> บันทึก</div>
+    </form>
+  </body>
+</html>

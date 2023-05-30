@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ลองสร้างตาราง</title>
+  </head>
+  <body>
+    <h1>รายการสินค้า</h1>
+    <table border="2" , bgcolor="tomato" , width="500">
+      <!-- หัวตาราง-->
+      <thead>
+        <th>ภาพสินค้า</th>
+        <th>ชื่อสินค้า</th>
+        <th>ราคาสินค้า</th>
+      </thead>
+      <!-- ตัวตาราง = เนื้อหา-->
+      <tbody>
+        <!-- แถว-->
+        <tr>
+          <td>
+            <img
+              src="../HTMLStructure/img/bobby.jpeg"
+              alt="bobby"
+              width="200"
+            />
+          </td>
+          <td>bobby</td>
+          <td bgcolor="green">500 บาท</td>
+        </tr>
+        <tr bgcolor="yellow">
+          <td><img src="../HTMLStructure/img/cbc.png" alt="cbc" width="200"</td>
+          <td>cbc</td>
+          <td>20 บาท</td>
+        </tr>
+      </tbody>
+      <!--ท้ายตาราง-->
+      <tfoot bgcolor="blue">
+        <td>sum == 20</td>
+      </tfoot>
+    </table>
+  </body>
+</html>
